@@ -1,3 +1,7 @@
+*{
+    margin: opx;
+}
+
 body{
     margin: 0px;
     font-family: "Open Sans", sans-serif;
@@ -53,5 +57,95 @@ header{
     border-radius: 3px;
     border: none;
     color: white;
-    cursor: pointer;}
+    cursor: pointer;
+}
+   
+.about-me{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        padding: 20px 120px;
+    }
+.about-me-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.our-services{
+    background-image: url("../images/images/background.png") , linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 30px 120px;
+
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 190px;
+}
+.service-image{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.services{
+    box-shadow: 0px 6px 50px 0px white;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#service-description{
+    padding: 0px 10px;
+    padding-top: 0px;
     
+}
+.our-service-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;  
+    padding-bottom: 5px;     
+}
+.service-title{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.service-btn{
+    background: #2e2e2e;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 9px;
+    border: 0px;
+    cursor: pointer;
+
+}
+footer{
+    background: black;
+    color: white;
+   
+    padding: 50px 120px 5px 120px ;
+}
+footer ul {
+    display: block;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px ;
+    padding-bottom: 120px;
+
+}
+hr{
+    padding: 0px 300px;
+}
+.copyright{
+    text-align: center;
+}
+
+
